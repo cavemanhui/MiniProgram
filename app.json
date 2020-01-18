@@ -3,12 +3,19 @@
     "pages/index/index",
     "pages/logs/logs"
   ],
+  "subpackages":[
+    {
+      "root":"subPackage",
+      "pages":[
+        "pages/test"
+      ]
+    }
+  ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
   },
-  "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "style": "v2"
 }

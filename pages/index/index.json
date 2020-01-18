@@ -1,4 +1,5 @@
 {
   "usingComponents": {
+    "cave-button":"../../iView/button/index"
   }
 }

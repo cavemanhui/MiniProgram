@@ -50,5 +50,12 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+
+  handleClick:function(){
+    wx.navigateTo({
+      url: '../../subPackage/pages/test',
+    })
+    console.log("这是一个按钮触发的事件")
   }
 })
